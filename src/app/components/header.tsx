@@ -14,11 +14,11 @@ const Header = () => {
         <Link href="/"><h1 className="text-black font-bold sm:text-3xl tracking-widest">PERFECT CREATION</h1></Link>
         <div className="bg-transparent md:ml-auto">
           <div className="hidden sm:flex items-center justify-center gap-2 md:gap-8">
-            <Link href="about" className="tracking-wide text-black font-bold sm:mr-14">HOME</Link>
-            <Link href="features" className="tracking-wide text-black font-bold sm:mr-14">ABOUT &nbsp;US</Link>
-            <Link href="testimonial" className="tracking-wide text-black font-bold sm:mr-14">OUR &nbsp;PROJECTS</Link>
-            <Link href="blog" className="tracking-wide text-black font-bold sm:mr-14">CAREERS</Link>
-            <Link href="early_access" className="tracking-wide text-black font-bold">CONTACT US</Link>
+            <Link href="/" className="tracking-wide text-black font-bold sm:mr-14">HOME</Link>
+            <Link href="#" className="tracking-wide text-black font-bold sm:mr-14">ABOUT &nbsp;US</Link>
+            <Link href="project" className="tracking-wide text-black font-bold sm:mr-14">OUR &nbsp;PROJECTS</Link>
+            <Link href="#" className="tracking-wide text-black font-bold sm:mr-14">CAREERS</Link>
+            <Link href="#" className="tracking-wide text-black font-bold">CONTACT US</Link>
           </div>
         </div>
 
@@ -56,11 +56,11 @@ const Header = () => {
 
               <div className="mt-6">
                 <nav className="grid gap-y-8">
-                  <Link className="text-black focus:outline-none px-2 font-bold" href="about">HOME</Link>
-                  <Link className="text-black focus:outline-none px-2 font-bold" href="features">ABOUT &nbsp;US</Link>  
-                  <Link className="text-black focus:outline-none px-2 font-bold" href="testimonial">OUR &nbsp;PROJECTS</Link>
-                  <Link className="text-black focus:outline-none px-2 font-bold" href="blog">CAREERS</Link>  
-                  <Link className="text-black focus:outline-none px-2 font-bold" href="early_access">CONTACT US</Link>
+                  <Link className="text-black focus:outline-none px-2 font-bold" href="/">HOME</Link>
+                  <Link className="text-black focus:outline-none px-2 font-bold" href="#">ABOUT &nbsp;US</Link>  
+                  <Link className="text-black focus:outline-none px-2 font-bold" href="project">OUR &nbsp;PROJECTS</Link>
+                  <Link className="text-black focus:outline-none px-2 font-bold" href="#">CAREERS</Link>  
+                  <Link className="text-black focus:outline-none px-2 font-bold" href="#">CONTACT US</Link>
                 </nav>
               </div>
               

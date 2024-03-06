@@ -25,15 +25,15 @@ export default function Footer()
             <a className="flex title-font font-medium items-center md:justify-start justify-center">
                 <h1 className="text-2xl font-bold">CONTACT US</h1>
             </a>
-            <p className="mt-5 text-sm"><FontAwesomeIcon icon={faLocationDot} /> &nbsp;Lumbung Hidup East Java</p>
-            <p className="mt-3 text-sm"><FontAwesomeIcon icon={faEnvelope} /> Hello@Homco.com</p>
+            <p className="mt-5 text-sm"><FontAwesomeIcon icon={faLocationDot} className="w-4 h-4"/> &nbsp;Lumbung Hidup East Java</p>
+            <p className="mt-3 text-sm"><FontAwesomeIcon icon={faEnvelope} className="w-4 h-4"/> Hello@Homco.com</p>
             <form action="#">
               <div className="items-center border-b-4 border-white mx-auto mb-3 mt-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">
                   <div className="relative w-full">
                       <input className="block p-3 text-white w-full text-sm bg-white bg-opacity-30 border border-white dark:bg-white-700 placeholder-white dark:text-white" placeholder="Email Address" type="email" id="email" required/>
                   </div>
                   <div>
-                      <button type="submit" className="py-3 px-3 w-full text-sm font-medium text-center text-white border cursor-pointer bg-primary-700 border-primary-600 hover:bg-primary-800 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"><FontAwesomeIcon icon={faArrowRight} /></button>
+                      <button type="submit" className="py-3 px-3 w-full text-sm font-medium text-center text-white border cursor-pointer bg-primary-700 border-primary-600 hover:bg-primary-800 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"><FontAwesomeIcon icon={faArrowRight} className="w-4 h-4"/></button>
                   </div>
               </div>
             </form>
@@ -57,13 +57,13 @@ export default function Footer()
                 <h2 className="title-font tracking-widest text-2xl font-bold mb-3">NAVIGATION</h2>
                 <nav className="list-none mb-10">
                 <li>
-                    <a><FontAwesomeIcon icon={faAngleRight} /> Homepage</a>
+                    <a href="/"><FontAwesomeIcon icon={faAngleRight} className="w-4 h-4"/> Homepage</a>
                 </li>
                 <li>
-                    <a><FontAwesomeIcon icon={faAngleRight} /> About US</a>
+                    <a href="#"><FontAwesomeIcon icon={faAngleRight} className="w-4 h-4"/> About US</a>
                 </li>
                 <li>
-                    <a><FontAwesomeIcon icon={faAngleRight} /> Our Projects</a>
+                    <a href="project"><FontAwesomeIcon icon={faAngleRight} className="w-4 h-4"/> Our Projects</a>
                 </li>
                 </nav>
             </div>
@@ -71,10 +71,10 @@ export default function Footer()
                 <h2 className="title-font font-medium text-gray-900 tracking-widest text-2xl mb-3"> &nbsp; </h2>
                 <nav className="list-none mb-10">
                 <li>
-                    <a><FontAwesomeIcon icon={faAngleRight} /> Project Details</a>
+                    <a href="project_detail"><FontAwesomeIcon icon={faAngleRight} className="w-4 h-4"/> Project Details</a>
                 </li>
                 <li>
-                    <a><FontAwesomeIcon icon={faAngleRight} /> Careers</a>
+                    <a href="#"><FontAwesomeIcon icon={faAngleRight} className="w-4 h-4"/> Careers</a>
                 </li>
                 </nav>
             </div>
