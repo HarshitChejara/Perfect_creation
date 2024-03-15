@@ -71,10 +71,10 @@ export default function Footer()
                 <h2 className="title-font font-medium text-gray-900 tracking-widest text-2xl mb-3"> &nbsp; </h2>
                 <nav className="list-none mb-10">
                 <li>
-                    <a href="project_detail"><FontAwesomeIcon icon={faAngleRight} className="w-4 h-4"/> Project Details</a>
+                    <a href="project/project_detail"><FontAwesomeIcon icon={faAngleRight} className="w-4 h-4"/> Project Details</a>
                 </li>
                 <li>
-                    <a href="#"><FontAwesomeIcon icon={faAngleRight} className="w-4 h-4"/> Careers</a>
+                    <a href="career"><FontAwesomeIcon icon={faAngleRight} className="w-4 h-4"/> Careers</a>
                 </li>
                 </nav>
             </div>

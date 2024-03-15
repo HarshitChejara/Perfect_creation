@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import Faq from "../components/faq";
+import HomeDesign from "../components/home_design";
 
 
 export default function ProjectDetail() {
@@ -28,24 +28,7 @@ export default function ProjectDetail() {
     </section>
 
 
-     <section className="text-gray-600 body-font">
-        <div className="container mx-auto flex px-5 sm:px-20 sm:py-32 md:flex-row flex-col items-center">
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left md:mb-0 items-center text-center">
-            <h6 className="text-[#C17777] text-sm font-bold mb-5">PERFECT PARTNER</h6>
-            <h1 className="title-font sm:text-4xl text-3xl font-bold text-[#781F19] font-serif tracking-widest">We have priority for can create dream home design</h1>
-            <p className="py-12 leading-relaxed text-black font-serif">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-            <div className="flex justify-center sm:mb-52">
-              <Link href="project/project_detail"><button className="inline-flex text-white bg-[#89643F] border-0 py-4 px-6 focus:outline-none hover:bg-[#89643F]-600 rounded text-sm font-serif">PORTFOLIO</button></Link>
-            </div>
-          </div>
-          <div className=" md:w-1/2 w-5/6">
-            <Image className="object-cover object-center rounded" alt="hero" width="700" height="360" src="/image15.png"/>
-          </div>
-        </div>
-     </section>
-
-
-
+     <HomeDesign />
 
 
       <section className="text-gray-600 body-font overflow-hidden">
@@ -265,7 +248,7 @@ export default function ProjectDetail() {
                 </p>
                 <div>
                 <button className="mt-auto text-white bg-[#89643F] border-0 py-4 px-8 text-xs font-medium rounded">CONTACT US</button>
-                </div> 
+                </div>
               </div>
             </div>
 
@@ -273,93 +256,8 @@ export default function ProjectDetail() {
         </div>
       </section>
 
+      <Faq />
 
-        
-
-
-
-            <section className="text-black body-font">
-        <div className="py-24 px-24">
-        <h1 className="text-[#781F19] font-bold font-serif p-3 text-3xl">FAQ</h1>
-
-        <div className="flex justify-center">
-            <div className=" w-full rounded-3xl ">
-                <input type="checkbox" id="input1" className="absolute peer opacity-0"/>
-                <div className="flex items-center flex-wrap mt-auto w-full">
-                  <label htmlFor="input1" className="flex items-center p-3 font-medium inline-flex font-serif text-xl tracking-widest">Frequently asked question number-1</label>
-                  <span className="text-black mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3" >
-                  <label htmlFor="input1"><FontAwesomeIcon icon={faChevronDown} className="w-5 h-5 ml-auto inline-flex"/></label>
-                  </span>
-                </div>
-                <div className="max-h-0 overflow-hidden peer-checked:max-h-full">
-                    <p className="p-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                </div>
-            </div>
-        </div>
-
-        <div className="flex justify-center sm:mt-5">
-            <div className=" w-full rounded-3xl ">
-                <input type="checkbox" id="input2" className="absolute peer opacity-0"/>
-                <div className="flex items-center flex-wrap mt-auto w-full">
-                  <label htmlFor="input2" className="flex items-center p-3 font-medium inline-flex font-serif text-xl tracking-widest">Frequently asked question number-2</label>
-                  <span className="text-black mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3" >
-                  <label htmlFor="input2"><FontAwesomeIcon icon={faChevronDown} className="w-5 h-5 ml-auto inline-flex"/></label>
-                  </span>
-                </div>
-                <div className="max-h-0 overflow-hidden peer-checked:max-h-full">
-                    <p className="p-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                </div>
-            </div>
-        </div>
-
-        <div className="flex justify-center sm:mt-5">
-            <div className=" w-full rounded-3xl ">
-                <input type="checkbox" id="input3" className="absolute peer opacity-0"/>
-                <div className="flex items-center flex-wrap mt-auto w-full">
-                  <label htmlFor="input3" className="flex items-center p-3 font-medium inline-flex font-serif text-xl tracking-widest">Frequently asked question number-3</label>
-                  <span className="text-black mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3" >
-                  <label htmlFor="input3"><FontAwesomeIcon icon={faChevronDown} className="w-5 h-5 ml-auto inline-flex"/></label>
-                  </span>
-                </div>
-                <div className="max-h-0 overflow-hidden peer-checked:max-h-full">
-                    <p className="p-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                </div>
-            </div>
-        </div>
-
-        <div className="flex justify-center sm:mt-5">
-            <div className=" w-full rounded-3xl ">
-                <input type="checkbox" id="input4" className="absolute peer opacity-0"/>
-                <div className="flex items-center flex-wrap mt-auto w-full">
-                  <label htmlFor="input4" className="flex items-center p-3 font-medium inline-flex font-serif text-xl tracking-widest">Frequently asked question number-4</label>
-                  <span className="text-black mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3" >
-                  <label htmlFor="input4"><FontAwesomeIcon icon={faChevronDown} className="w-5 h-5 ml-auto inline-flex"/></label>
-                  </span>
-                </div>
-                <div className="max-h-0 overflow-hidden peer-checked:max-h-full">
-                    <p className="p-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                </div>
-            </div>
-        </div>
-
-        <div className="flex justify-center sm:mt-5">
-            <div className=" w-full rounded-3xl ">
-                <input type="checkbox" id="input5" className="absolute peer opacity-0"/>
-                <div className="flex items-center flex-wrap mt-auto w-full">
-                  <label htmlFor="input5" className="flex items-center p-3 font-medium inline-flex font-serif text-xl tracking-widest">Frequently asked question number-5</label>
-                  <span className="text-black mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3" >
-                  <label htmlFor="input5"><FontAwesomeIcon icon={faChevronDown} className="w-5 h-5 ml-auto inline-flex"/></label>
-                  </span>
-                </div>
-                <div className="max-h-0 overflow-hidden peer-checked:max-h-full">
-                    <p className="p-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                </div>
-            </div>
-        </div>
-
-        </div>
-      </section>  
-
-    </React.Fragment>  
+    </React.Fragment>
   );
 }

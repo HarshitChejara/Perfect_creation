@@ -17,7 +17,7 @@ const Header = () => {
             <Link href="/" className="tracking-wide text-black font-bold sm:mr-14">HOME</Link>
             <Link href="#" className="tracking-wide text-black font-bold sm:mr-14">ABOUT &nbsp;US</Link>
             <Link href="project" className="tracking-wide text-black font-bold sm:mr-14">OUR &nbsp;PROJECTS</Link>
-            <Link href="#" className="tracking-wide text-black font-bold sm:mr-14">CAREERS</Link>
+            <Link href="career" className="tracking-wide text-black font-bold sm:mr-14">CAREERS</Link>
             <Link href="#" className="tracking-wide text-black font-bold">CONTACT US</Link>
           </div>
         </div>
@@ -59,7 +59,7 @@ const Header = () => {
                   <Link className="text-black focus:outline-none px-2 font-bold" href="/">HOME</Link>
                   <Link className="text-black focus:outline-none px-2 font-bold" href="#">ABOUT &nbsp;US</Link>  
                   <Link className="text-black focus:outline-none px-2 font-bold" href="project">OUR &nbsp;PROJECTS</Link>
-                  <Link className="text-black focus:outline-none px-2 font-bold" href="#">CAREERS</Link>  
+                  <Link className="text-black focus:outline-none px-2 font-bold" href="career">CAREERS</Link>  
                   <Link className="text-black focus:outline-none px-2 font-bold" href="#">CONTACT US</Link>
                 </nav>
               </div>

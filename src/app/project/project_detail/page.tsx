@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import ProjectStages from "@/app/components/project_stages";
 
 
 export default function ProjectDetail() {
@@ -11,7 +12,7 @@ export default function ProjectDetail() {
             <div className="flex flex-wrap lg:flex-grow lg:w-full relative md:w-1/2 mb-10 md:mb-0">
                 <Image className="object-cover object-center w-full block absolute inset-0" width="600" height="360" alt="hero" src="/image23.png"/>
                 <div className="text-right ml-auto relative z-10 bg-white sm:mt-12 sm:mb-24">
-                  <h2 className="text-2xl sm:text-4xl text-[#781F19] font-serif tracking-widest font-bold title-font mb-2 py-5 px-5">PROJECT NAME</h2>
+                  <h2 className="text-2xl sm:text-4xl text-[#781F19] font-serif tracking-widest font-bold title-font mb-2 py-5 px-5">PROJECT NAME abc</h2>
                 </div>
             </div>
             <div className="container w-5/6 md:w-1/2 lg:pr-28 flex flex-col md:items-start md:text-left items-center text-center p-5">
@@ -40,34 +41,8 @@ export default function ProjectDetail() {
         </div>
     </section>
 
+    <ProjectStages />
 
-        <section className="text-gray-600 body-font bg-white">
-          <div className="container py-24 sm:px-24 mx-auto">
-            <div className="flex flex-col text-center w-full mb-20">
-              <h1 className="sm:text-4xl text-2xl font-serif font-bold title-font mb-4 text-[#781F19] tracking-widest">PROJECT STAGES</h1>
-            </div>
-            <div className="flex flex-wrap -m-4">
-              <div className="lg:w-1/3 sm:w-1/2 p-10">
-                <Image  alt="gallery" width="600" height="360" src="/image17.png" />
-              </div>
-              <div className="lg:w-1/3 sm:w-1/2 p-10">
-                <Image  alt="gallery" width="600" height="360" src="/image18.png" />
-              </div>
-              <div className="lg:w-1/3 sm:w-1/2 p-10">
-                <Image  alt="gallery" width="600" height="360" src="/image19.png" />
-              </div>
-              <div className="lg:w-1/3 sm:w-1/2 p-10">
-                <Image  alt="gallery" width="600" height="360" src="/image20.png" />
-              </div>
-              <div className="lg:w-1/3 sm:w-1/2 p-10">
-                <Image  alt="gallery" width="600" height="360" src="/image21.png" />
-              </div>
-              <div className="lg:w-1/3 sm:w-1/2 p-10">
-                <Image  alt="gallery" width="600" height="360" src="/image22.png" />
-              </div>
-            </div>
-          </div>
-        </section>
-    </React.Fragment>  
+    </React.Fragment>
   );
 }
