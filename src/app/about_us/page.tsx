@@ -67,7 +67,7 @@ export default function About() {
 
     <section className="text-gray-600 body-font">
         <div className="flex flex-col text-center w-full mb-20">
-            <h1 className="sm:text-5xl text-4xl font-medium font-serif title-font mb-4 text-gray-900">Founder's diary</h1>
+            <h1 className="sm:text-5xl text-4xl font-medium font-serif title-font mb-4 text-gray-900">Founders diary</h1>
         </div>
         <div className="container mx-auto flex px-5 sm:px-12 sm:py-20 md:flex-row flex-col items-center">
             <div className="lg:max-w-lg lg:w-full md:w-1/2 sm:w-5/6 md:mb-0 mb-5">
@@ -101,8 +101,8 @@ export default function About() {
       </div>
     </div>
     <div className="lg:flex-grow md:w-1/2 lg:pr-20 flex flex-col md:items-start md:text-left items-center text-center">
-      <h1 className="title-font sm:text-5xl text-3xl sm:mt-1 mt-16 font-bold font-serif tracking-widest">"Work hard & great quality is my priority"</h1>
-      <p className=" leading-relaxed text-lg font-serif">"Work hard & great quality is my priority"</p>
+      <h1 className="title-font sm:text-5xl text-3xl sm:mt-1 mt-16 font-bold font-serif tracking-widest">Work hard & great quality is my priority</h1>
+      <p className=" leading-relaxed text-lg font-serif">Work hard & great quality is my priority</p>
     </div>
   </div>
 </section>
