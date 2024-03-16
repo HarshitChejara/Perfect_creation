@@ -8,7 +8,7 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 const Faq = () => {
   return (
     <section className="text-black body-font">
-    <div className="py-24 px-24">
+    <div className="py-24 sm:px-24">
     <h1 className="text-[#781F19] font-bold font-serif p-3 text-3xl">FAQ</h1>
 
     <div className="flex justify-center">

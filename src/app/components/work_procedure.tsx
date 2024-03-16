@@ -12,9 +12,9 @@ const WorkProcedure = () => {
   return (
 
     <section className="text-gray-600 body-font">
-    <div className="flex flex-col w-full sm:px-40">
-      <p className="leading-relaxed text-base font-serif text-[#CC8D69] mb-3">How We Work</p>
-      <h1 className="sm:text-4xl text-3xl font-bold title-font mb-2 font-serif text-[#781F19] tracking-widest">Our work procedure</h1>
+    <div className="flex flex-col w-full sm:px-40 px-5">
+      <p className="leading-relaxed text-base font-serif text-[#CC8D69] mb-3 ">How We Work</p>
+      <h1 className="sm:text-4xl text-3xl font-bold title-font font-serif text-[#781F19] tracking-widest">Our work procedure</h1>
     </div>
 
     <div className="container mx-auto flex px-5 sm:px-32 py-24 md:flex-row flex-col items-center">
@@ -25,7 +25,7 @@ const WorkProcedure = () => {
         <p className="mb-8 leading-relaxed font-serif text-black text-lg">Define client requirements, conduct site analysis, and establish goals for the space.</p>
         </div>
       </div>
-      <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <div className="lg:max-w-lg lg:w-full md:w-1/2 sm:w-5/6">
         <Image className="object-cover object-center" alt="hero" width="600" height="360" src="/image4.png"/>
       </div>
     </div>
@@ -38,7 +38,7 @@ const WorkProcedure = () => {
         <p className="mb-8 leading-relaxed font-serif text-white text-lg">Create a cohesive design vision, present it through mood boards, and collaborate with the client for feedback.</p>
         </div>
       </div>
-      <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <div className="lg:max-w-lg lg:w-full md:w-1/2 sm:w-5/6">
         <Image className="object-cover object-center" alt="hero" width="600" height="360" src="/image5.png"/>
       </div>
     </div>
@@ -51,7 +51,7 @@ const WorkProcedure = () => {
         <p className="mb-8 leading-relaxed font-serif text-black text-lg">Optimize furniture placement, consider traffic flow, and maintain balance for a functional and visually appealing layout.</p>
         </div>
       </div>
-      <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <div className="lg:max-w-lg lg:w-full md:w-1/2 sm:w-5/6">
         <Image className="object-cover object-center" alt="hero" width="600" height="360" src="/image6.png"/>
       </div>
     </div>
@@ -64,7 +64,7 @@ const WorkProcedure = () => {
         <p className="mb-8 leading-relaxed font-serif text-white text-lg">Choose appropriate materials, finalize a complementary color palette, and integrate varied textures for depth.</p>
         </div>
       </div>
-      <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <div className="lg:max-w-lg lg:w-full md:w-1/2 sm:w-5/6">
         <Image className="object-cover object-center" alt="hero" width="600" height="360" src="/image7.png"/>
       </div>
     </div>
@@ -77,12 +77,12 @@ const WorkProcedure = () => {
         <p className="mb-8 leading-relaxed font-serif text-black text-lg">Develop detailed drawings, manage the budget, and supervise the installation for accurate execution of the design concept.</p>
         </div>
       </div>
-      <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <div className="lg:max-w-lg lg:w-full md:w-1/2 sm:w-5/6">
         <Image className="object-cover object-center" alt="hero" width="600" height="360" src="/image8.png"/>
       </div>
     </div>
 
-    <div className="flex sm:px-36 mb-10">
+    <div className="flex sm:px-36 px-5 mb-10">
       <button type="button" className="text-white bg-[#272E1C] rounded py-5 px-8 text-sm font-serif">CONTACT US</button>
     </div>
   </section>

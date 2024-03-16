@@ -25,8 +25,8 @@ export default function Footer()
             <a className="flex title-font font-medium items-center md:justify-start justify-center">
                 <h1 className="text-2xl font-bold">CONTACT US</h1>
             </a>
-            <p className="mt-5 text-sm"><FontAwesomeIcon icon={faLocationDot} className="w-4 h-4"/> &nbsp;Lumbung Hidup East Java</p>
-            <p className="mt-3 text-sm"><FontAwesomeIcon icon={faEnvelope} className="w-4 h-4"/> Hello@Homco.com</p>
+            <p className="mt-5 text-sm sm:pl-1"><FontAwesomeIcon icon={faLocationDot} className="w-4 h-4"/> &nbsp;Lumbung Hidup East Java</p>
+            <p className="mt-3 text-sm sm:pl-1 pr-10"><FontAwesomeIcon icon={faEnvelope} className="w-4 h-4"/> Hello@Homco.com</p>
             <form action="#">
               <div className="items-center border-b-4 border-white mx-auto mb-3 mt-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">
                   <div className="relative w-full">
@@ -55,12 +55,12 @@ export default function Footer()
             <div className="flex-grow flex flex-wrap md:pl-44 -mb-10 md:mt-0 mt-10 md:text-left text-center">
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
                 <h2 className="title-font tracking-widest text-2xl font-bold mb-3">NAVIGATION</h2>
-                <nav className="list-none mb-10">
+                <nav className="list-none sm:mb-10 text-left sm:pl-1 pl-20">
                 <li>
                     <a href="/"><FontAwesomeIcon icon={faAngleRight} className="w-4 h-4"/> Homepage</a>
                 </li>
                 <li>
-                    <a href="#"><FontAwesomeIcon icon={faAngleRight} className="w-4 h-4"/> About US</a>
+                    <a href="about_us"><FontAwesomeIcon icon={faAngleRight} className="w-4 h-4"/> About US</a>
                 </li>
                 <li>
                     <a href="project"><FontAwesomeIcon icon={faAngleRight} className="w-4 h-4"/> Our Projects</a>
@@ -69,7 +69,7 @@ export default function Footer()
             </div>
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
                 <h2 className="title-font font-medium text-gray-900 tracking-widest text-2xl mb-3"> &nbsp; </h2>
-                <nav className="list-none mb-10">
+                <nav className="list-none sm:mb-10 text-left sm:pl-1 pl-20">
                 <li>
                     <a href="project/project_detail"><FontAwesomeIcon icon={faAngleRight} className="w-4 h-4"/> Project Details</a>
                 </li>

@@ -15,7 +15,7 @@ const Header = () => {
         <div className="bg-transparent md:ml-auto">
           <div className="hidden sm:flex items-center justify-center gap-2 md:gap-8">
             <Link href="/" className="tracking-wide text-black font-bold sm:mr-14">HOME</Link>
-            <Link href="#" className="tracking-wide text-black font-bold sm:mr-14">ABOUT &nbsp;US</Link>
+            <Link href="about_us" className="tracking-wide text-black font-bold sm:mr-14">ABOUT &nbsp;US</Link>
             <Link href="project" className="tracking-wide text-black font-bold sm:mr-14">OUR &nbsp;PROJECTS</Link>
             <Link href="career" className="tracking-wide text-black font-bold sm:mr-14">CAREERS</Link>
             <Link href="#" className="tracking-wide text-black font-bold">CONTACT US</Link>
@@ -57,7 +57,7 @@ const Header = () => {
               <div className="mt-6">
                 <nav className="grid gap-y-8">
                   <Link className="text-black focus:outline-none px-2 font-bold" href="/">HOME</Link>
-                  <Link className="text-black focus:outline-none px-2 font-bold" href="#">ABOUT &nbsp;US</Link>  
+                  <Link className="text-black focus:outline-none px-2 font-bold" href="about_us">ABOUT &nbsp;US</Link>  
                   <Link className="text-black focus:outline-none px-2 font-bold" href="project">OUR &nbsp;PROJECTS</Link>
                   <Link className="text-black focus:outline-none px-2 font-bold" href="career">CAREERS</Link>  
                   <Link className="text-black focus:outline-none px-2 font-bold" href="#">CONTACT US</Link>
